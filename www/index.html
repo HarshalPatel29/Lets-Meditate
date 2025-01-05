@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset ="utf-8">
+    <meta name ="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover">
+    <title>Let's Meditate</title>
+    <link rel = "stylesheet" href ="css/index.css">
+</head>
+<body >
+<div class="app">
+    <header>
+        <h1>Let's Meditate</h1>
+    </header>
+
+    <main>
+        <div class="meditation-timer">
+            <div class="timer-display">00:00</div>
+            <div class="timer-controls">
+                <button id="startBtn" class="primary-btn">Start Session</button>
+                <button id="pauseBtn" class="secondary-btn">Pause</button>
+                <button id="resetBtn" class="secondary-btn">Reset</button>
+            </div>
+        </div>
+
+        <div class="meditation-options">
+
+            <div class="session-length">
+                <h3>Choose Session Length</h3>
+                <select id="timeSelect">
+                    <option value="5">5 minutes</option>
+                    <option value="10">10 minutes</option>
+                    <option value="15">15 minutes</option>
+                    <option value="20">20 minutes</option>
+                    <option value="30">30 minutes</option>
+                </select>
+            </div>
+            <div class="musicplayer">
+                <h3>Music Player</h3>
+                <audio id="audioPlayer" controls>
+                    <source id="audioSource" src="" type="audio/mpeg">
+                </audio>
+                <div class="musiccontrols">
+                    <input type="file" id="filePicker" accept="audio/*" />
+                </div>
+            </div>
+
+        </div>
+
+        <div id="nearbyPlaces" class="nearby-places">
+            <button id="locationsBtn" class="feature-btn">
+                Find Calm Places Nearby
+            </button>
+            <h3>Nearby Calm Places</h3>
+            <div id="placesList"></div>
+        </div>
+    </main>
+</div>
+<script src ="cordova.js"></script>
+<script src ="js/index.js"></script>
+</body>
+</html>
