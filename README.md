@@ -1,6 +1,3 @@
-Name: Harshal Chunilal Patel
-Student No : 20038275
-
 ## Let's Meditate App
 A simple meditation app built with Cordova.
 Let's Meditate is an easy-to-use, friendly meditation app to bring relaxation and inner peace to users. It a customizable timer with vibration notifications, and a geolocation feature to find nearby calm places like parks and beaches. Users can also listen to their favorite music by selecting tracks from their local storage. With its clean interface, offline mode, and personalization options, "Let's Meditate" makes the meditation experience complete and accessible to all.
