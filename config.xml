@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.example.letsmeditate" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Let's Meditate</name>
+    <description>A meditation app for relaxation and mindfulness</description>
+    <author email="dev@cordova.apache.org" href="https://cordova.apache.org">
+        Your Name
+    </author>
+    <content src="index.html" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+
+    <platform name="android">
+        <!--Preferences for splash screen -->
+        <preference name="AndroidWindowSplashScreenAnimatedIcon" value="resources/android/icon/splash.png" />
+        <preference name="SplashScreenDelay" value="3000" />
+        <preference name="SplashMaintainAspectRatio" value="true" />
+        <preference name="ShowSplashScreenSpinner" value="false"/>
+
+        <!-- Icon references -->
+        <icon density="ldpi" src="resources/android/icon/ldpi-foreground.png" />
+        <icon density="mdpi" src="resources/android/icon/mdpi-foreground.png" />
+        <icon density="hdpi" src="resources/android/icon/hdpi-foreground.png" />
+        <icon density="xhdpi" src="resources/android/icon/xhdpi-foreground.png" />
+        <icon density="xxhdpi" src="resources/android/icon/xxhdpi-foreground.png" />
+        <icon density="xxxhdpi" src="resources/android/icon/xxxhdpi-foreground.png" />
+    </platform>
+</widget>
